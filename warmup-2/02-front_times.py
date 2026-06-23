@@ -1,9 +1,10 @@
 def front_times(str, n):
   front = str[:3]
-  result = ""
+  result = ''
   for i in range(n):
     result += front
   return result
+
 
 # Solution:
 

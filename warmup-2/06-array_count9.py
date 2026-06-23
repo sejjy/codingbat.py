@@ -5,6 +5,7 @@ def array_count9(nums):
       count += 1
   return count
 
+
 # Solution:
 
 # def array_count9(nums):

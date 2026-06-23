@@ -4,6 +4,7 @@ def sum_double(a, b):
   else:
     return a + b
 
+
 # Solution:
 # def sum_double(a, b):
 #   # Store the sum in a local variable

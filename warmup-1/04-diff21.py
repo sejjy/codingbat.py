@@ -5,6 +5,7 @@ def diff21(n):
     abs_diff *= 2
   return abs_diff
 
+
 # Solution:
 
 # def diff21(n):

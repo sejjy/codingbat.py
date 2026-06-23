@@ -4,6 +4,7 @@ def array_front9(nums):
       return True
   return False
 
+
 # Solution:
 
 # def array_front9(nums):

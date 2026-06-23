@@ -4,7 +4,8 @@ def front_back(str):
 
   if first == last:
     return str
-  return (last + str[1:len(str)-1] + first)
+  return last + str[1:len(str)-1] + first  # fmt: off
+
 
 # Solution:
 
