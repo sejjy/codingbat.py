@@ -1,5 +1,8 @@
 # respect CodingBat's formatting
 
+[tool.basedpyright]
+typeCheckingMode = "standard"
+
 [tool.ruff]
 line-length = 80
 indent-width = 2
