@@ -17,6 +17,7 @@ def round_sum(a, b, c):
 
 def round10(num):
   rem = num % 10
+
   if rem < 5:
     return num - rem
   return num + (10 - rem)

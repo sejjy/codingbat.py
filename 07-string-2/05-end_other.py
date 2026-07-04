@@ -10,6 +10,7 @@
 
 def end_other(a, b):
   i = min(len(a), len(b))
+
   return a[-i:].lower() == b[-i:].lower()
 
 

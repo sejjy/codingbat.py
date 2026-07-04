@@ -21,5 +21,6 @@ def centered_average(nums):
     total += num
 
   total -= largest + smallest
-  average = total // (len(nums) - 2)
+  average = total // (len(nums)-2)  # fmt: off
+
   return average
