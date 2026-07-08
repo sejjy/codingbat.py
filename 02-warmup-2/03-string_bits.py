@@ -7,13 +7,13 @@
 
 
 def string_bits(str):
-  new_str = ''
+  result = ''
 
   for i in range(len(str)):
     if i % 2 == 0:
-      new_str += str[i]
+      result += str[i]
 
-  return new_str
+  return result
 
 
 # Solution:
