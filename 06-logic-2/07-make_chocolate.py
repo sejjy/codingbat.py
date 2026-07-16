@@ -11,13 +11,14 @@
 def make_chocolate(small, big, goal):
   rem = goal % 5
   big *= 5
-  needed = goal - big
+  need = goal - big
 
-  if goal > big + small or small < rem:
+  if goal > (big + small) or small < rem:
     return -1
-  if needed <= small and needed >= 0:
-    return needed
-  if needed < 0:
+  if need >= 0 and need <= small:
+    return need
+  if need < 0:
     return rem
+
 
 # Harder than make_bricks.
